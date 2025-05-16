@@ -1,0 +1,23 @@
+$Inter: ('Medium', 500), ('Regular', 400); 
+
+@each $name, $weight in $Inter {
+  @font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter/#{$name}.ttf') format('truetype');
+    font-weight: $weight;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
+$Roboto: ('Bold', 700);
+
+@each $name, $weight in $Roboto {
+  @font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto/Roboto-#{$name}.ttf') format('truetype');
+    font-weight: $weight;
+    font-style: normal;
+    font-display: swap;
+  }
+}
