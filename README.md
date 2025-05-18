@@ -4,7 +4,7 @@
 
 ## 🔗 Демо
 
-👉 [Смотреть на Vercel](https://https://launch-board-psi.vercel.app)
+👉 [Смотреть на Vercel](https://launch-board-psi.vercel.app)
 
 ## 📦 Технологии
 
